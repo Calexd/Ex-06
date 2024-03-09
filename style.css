@@ -2,5 +2,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
 }
 
+
+.flex-row-spacebetw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-left {
+    display: flex;
+    /* background-color: aqua !important;  */
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    margin-left: 90px;
+    padding: 20px;
+
+}
+
+.img-right img {
+    height: 550px;
+    width: auto;
+    margin-right: 90px;
+}
+
+
+.contenedor-geral {
+    background-color: black;
+    color: white;
+}
+
+.text-left h1 {
+    margin-top: 100px;
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.text-left p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    color: #B2B2B2;
+}
+
+.text-left b {
+    color: #FFBF00;
+}
+
+.escolha-button {
+    background: linear-gradient(to bottom, #FFBF00, #d39e00);
+    color: #332200;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* -----------header ------- */
+
+.header {
+    padding: 10px;
+    height: 90px;
+}
+
+.header li {
+    text-decoration: none;
+}
+
+.header-nav {
+    height: 200px;
+    width: 300px;
+    margin-right: 90px;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 90px;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+
+.container-logoimg {
+    display: flex;
+    position: absolute;
+    top: 530px;
+    
+}
+
+.logoimg {
+    width: 90px;
+    height: auto;
+    transform: scaleX(-1);
+    opacity: 0.5;
+}
